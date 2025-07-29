@@ -9,3 +9,6 @@ inherit_gem: { rubocop-rails-omakase: rubocop.yml }
 Style/StringLiterals:
   Enabled: true
   EnforcedStyle: single_quotes
+
+Bundler/OrderedGems:
+  Enabled: true
